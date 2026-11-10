@@ -63,6 +63,10 @@ public final class Fromage {
         DeferredRegister.create(Registries.PARTICLE_TYPE, "fromage");
     static final DeferredHolder<ParticleType<?>, SimpleParticleType> WHEY_DROP =
         PARTICLES.register("whey_drop", () -> new SimpleParticleType(false));
+    static final DeferredHolder<ParticleType<?>, SimpleParticleType> MILK_BUBBLE =
+        PARTICLES.register("milk_bubble", () -> new SimpleParticleType(false));
+    static final DeferredHolder<ParticleType<?>, SimpleParticleType> MILK_POP =
+        PARTICLES.register("milk_pop", () -> new SimpleParticleType(false));
 
     private static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
         DeferredRegister.create(Registries.BLOCK_ENTITY_TYPE, "fromage");
@@ -533,6 +537,30 @@ public final class Fromage {
             BlockState below = level.getBlockState(pos.below());
             return below.is(FIREBOX.get()) && below.getValue(BlockStateProperties.LIT)
                 || below.getBlock() instanceof CampfireBlock && below.getValue(CampfireBlock.LIT);
+        }
+
+        @Override public void animateTick(BlockState state, Level level, BlockPos pos, RandomSource random) {
+            if (!vat || !heated(level, pos)) return;
+            int stage = state.getValue(STAGE);
+            if (stage != 2 && stage != 6 && !(stage == 3 && state.getValue(DRAIN_PROGRESS) == 0)) return;
+            double surface = state.getBlock() instanceof FireboxBlock ? 14.9 / 16 : 12.9 / 16;
+            if (random.nextInt(20) == 0) {
+                level.addParticle(Fromage.MILK_BUBBLE.get(),
+                    pos.getX() + .34 + random.nextDouble() * .32,
+                    pos.getY() + surface,
+                    pos.getZ() + .34 + random.nextDouble() * .32,
+                    0, 0, 0);
+            }
+            if (random.nextInt(5) == 0) {
+                double along = .30 + random.nextDouble() * .40;
+                double rim = random.nextBoolean() ? .24 : .76;
+                boolean side = random.nextBoolean();
+                level.addParticle(Fromage.MILK_POP.get(),
+                    pos.getX() + (side ? rim : along),
+                    pos.getY() + surface,
+                    pos.getZ() + (side ? along : rim),
+                    0, 0, 0);
+            }
         }
 
         private void advance(BlockState state, Level level, BlockPos pos, int stage) {

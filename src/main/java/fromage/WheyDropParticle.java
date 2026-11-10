@@ -35,10 +35,24 @@ final class WheyDropParticle extends TextureSheetParticle {
         return ParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
     }
 
+    private static boolean spriteReady(SpriteSet sprites) {
+        try {
+            return sprites.get(0, 1) != null;
+        } catch (RuntimeException ignored) {
+            return false;
+        }
+    }
+
     @SubscribeEvent
     public static void register(RegisterParticleProvidersEvent event) {
         event.registerSpriteSet(Fromage.WHEY_DROP.get(),
             sprites -> (type, level, x, y, z, dx, dy, dz) -> new WheyDropParticle(level, x, y, z, sprites));
+        event.registerSpriteSet(Fromage.MILK_BUBBLE.get(),
+            sprites -> (type, level, x, y, z, dx, dy, dz) -> spriteReady(sprites)
+                ? new MilkBubbleParticle(level, x, y, z, sprites) : null);
+        event.registerSpriteSet(Fromage.MILK_POP.get(),
+            sprites -> (type, level, x, y, z, dx, dy, dz) -> spriteReady(sprites)
+                ? new MilkPopParticle(level, x, y, z, sprites) : null);
     }
 }
 
