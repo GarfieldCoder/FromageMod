@@ -1,0 +1,768 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "cheese_mold_1",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "Base",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        1,
+        16
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000000",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Front rail",
+      "from": [
+        0,
+        1,
+        0
+      ],
+      "to": [
+        16,
+        8,
+        2
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000001",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            7
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            7
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            7
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Back rail",
+      "from": [
+        0,
+        1,
+        14
+      ],
+      "to": [
+        16,
+        8,
+        16
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000002",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            7
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            7
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            7
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Left rail",
+      "from": [
+        0,
+        1,
+        2
+      ],
+      "to": [
+        2,
+        8,
+        14
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000003",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            12
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            12
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            7
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            7
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Right rail",
+      "from": [
+        14,
+        1,
+        2
+      ],
+      "to": [
+        16,
+        8,
+        14
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000004",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            12
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            12
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            7
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            7
+          ],
+          "texture": 1
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Loose curds",
+      "from": [
+        3,
+        1,
+        4
+      ],
+      "to": [
+        6,
+        5,
+        7
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000005",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ],
+          "texture": 3
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "Loose curds",
+      "from": [
+        8,
+        1,
+        3
+      ],
+      "to": [
+        11,
+        5,
+        6
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000006",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ],
+          "texture": 3
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "Loose curds",
+      "from": [
+        6,
+        1,
+        8
+      ],
+      "to": [
+        9,
+        5,
+        11
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000007",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ],
+          "texture": 3
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "Loose curds",
+      "from": [
+        10,
+        1,
+        9
+      ],
+      "to": [
+        13,
+        5,
+        12
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000008",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            3,
+            3
+          ],
+          "texture": 3
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            3,
+            4
+          ],
+          "texture": 2
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "a6400000-0000-4000-8000-000000000000",
+    "a6400000-0000-4000-8000-000000000001",
+    "a6400000-0000-4000-8000-000000000002",
+    "a6400000-0000-4000-8000-000000000003",
+    "a6400000-0000-4000-8000-000000000004",
+    "a6400000-0000-4000-8000-000000000005",
+    "a6400000-0000-4000-8000-000000000006",
+    "a6400000-0000-4000-8000-000000000007",
+    "a6400000-0000-4000-8000-000000000008"
+  ],
+  "textures": [
+    {
+      "id": "0",
+      "name": "mold_inside.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000000",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/mold_inside.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAOElEQVR4nGNYWurxnxLM0BBi8p8STLQBkxKtUTCKAZNTrFEwTVyA04ACD93/lGD6BeKoAaMG4MMAP8ILz1imk54AAAAASUVORK5CYII="
+    },
+    {
+      "id": "1",
+      "name": "mold_oak.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000001",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/mold_oak.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATElEQVR4nGM41hv2nxLMsLbC4z8lmGFOhu1/SjDYgJ1N/nBMlgHIOMxSCYzxsfEakOmhD8a42GtLXOEYbEB1gP5/SjB1AnHUgBFvAADHeECTSeiycwAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "2",
+      "name": "young_cheese_side.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000002",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/young_cheese_side.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAASklEQVR4nGP48fLYf1LwsyurUDADugCpGG7Ap8e7wRhZ8u7JBWBMlAHYMFkGXNk/DavC0zv6SHcBUWFwemvnf1Iw7WJh1IARbQAAhJxhYJLtYc8AAAAASUVORK5CYII="
+    },
+    {
+      "id": "3",
+      "name": "young_cheese_top.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000003",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/young_cheese_top.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXUlEQVR4nGP4/+Xqf1Lwhye7UTDDz7fHMQRJwXADfrw9A8fYFD67to7GBmDDr25tgGOCXqCJASQFItifV9eAMdUM+P/pAhgTbQDFXiDLgLtnl/4nBWMYQIntw8QAAHngjqqcZGE2AAAAAElFTkSuQmCC"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "values": [
+    "fromage:curd_knife",
+    "#c:tools/knife",
+    {
+      "id": "#c:tools/knives",
+      "required": false
+    },
+    {
+      "id": "#farmersdelight:tools/knives",
+      "required": false
+    }
+  ]
+}

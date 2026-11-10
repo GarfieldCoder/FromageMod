@@ -1,0 +1,2121 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "south",
+        "below": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_rails"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "below": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_rails",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "below": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_rails",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "below": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_rails",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "below": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_rails_stacked"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "below": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_rails_stacked",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "below": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_rails_stacked",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "below": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_rails_stacked",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_top"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_top",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_top",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_top",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "left": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "left": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "left": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "left": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "left": "false",
+        "wide": "false",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_cap"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "left": "false",
+        "wide": "false",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_cap",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "left": "false",
+        "wide": "false",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_cap",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "left": "false",
+        "wide": "false",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_cap",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "left": "false",
+        "wide": "false",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_join"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "left": "false",
+        "wide": "false",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_join",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "left": "false",
+        "wide": "false",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_join",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "left": "false",
+        "wide": "false",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_join",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "left": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_foot"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "left": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_foot",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "left": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_foot",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "left": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_foot",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "left": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "left": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "left": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "left": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "left": "false",
+        "wide": "true",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_cap"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "left": "false",
+        "wide": "true",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_cap",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "left": "false",
+        "wide": "true",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_cap",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "left": "false",
+        "wide": "true",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_cap",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "left": "false",
+        "wide": "true",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_join"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "left": "false",
+        "wide": "true",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_join",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "left": "false",
+        "wide": "true",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_join",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "left": "false",
+        "wide": "true",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_join",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "left": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_foot"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "left": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_foot",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "left": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_foot",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "left": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_left_wide_foot",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "false",
+        "wide": "false",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_cap"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "false",
+        "wide": "false",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_cap",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "false",
+        "wide": "false",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_cap",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "false",
+        "wide": "false",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_cap",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "false",
+        "wide": "false",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_join"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "false",
+        "wide": "false",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_join",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "false",
+        "wide": "false",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_join",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "false",
+        "wide": "false",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_join",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_foot"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_foot",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_foot",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "false",
+        "wide": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_foot",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "false",
+        "wide": "true",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_cap"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "false",
+        "wide": "true",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_cap",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "false",
+        "wide": "true",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_cap",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "false",
+        "wide": "true",
+        "above": "false"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_cap",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "false",
+        "wide": "true",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_join"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "false",
+        "wide": "true",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_join",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "false",
+        "wide": "true",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_join",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "false",
+        "wide": "true",
+        "above": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_join",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "right": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_foot"
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "right": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_foot",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "right": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_foot",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "right": "false",
+        "wide": "true"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_right_wide_foot",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "1"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_young",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "9"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_young",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "1"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_young",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "9"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_young",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "1"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_young",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "9"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_young",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "1"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_young",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "9"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_young",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "1"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_young",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "9"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_young",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "1"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_young",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "9"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_young",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "1"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_young",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "9"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_young",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "1"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_young",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "9"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_young",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "2"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_rind",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "10"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_rind",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "2"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_rind",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "10"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_rind",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "2"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_rind",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "10"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_rind",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "2"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_rind",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "10"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_rind",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "2"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_rind",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "10"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_rind",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "2"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_rind",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "10"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_rind",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "2"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_rind",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "10"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_rind",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "2"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_rind",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "10"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_rind",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "3"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_aged",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "11"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_aged",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "3"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_aged",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "11"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_aged",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "3"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_aged",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "11"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_aged",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "3"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_aged",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "11"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_aged",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "3"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_aged",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "11"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_aged",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "3"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_aged",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "11"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_aged",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "3"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_aged",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "11"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_aged",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "3"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_aged",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "11"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_aged",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "4"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_extra",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "12"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_extra",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "4"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_extra",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "12"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_extra",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "4"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_extra",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "12"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_extra",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "4"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_extra",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "12"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_cheddar_extra",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "4"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_extra",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "12"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_extra",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "4"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_extra",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "12"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_extra",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "4"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_extra",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "12"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_extra",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "4"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_extra",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "12"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_cheddar_extra",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "5"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_pierced",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "13"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_pierced",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "5"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_pierced",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "13"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_pierced",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "5"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_pierced",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "13"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_pierced",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "5"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_pierced",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "13"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_pierced",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "5"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_pierced",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "13"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_pierced",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "5"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_pierced",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "13"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_pierced",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "5"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_pierced",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "13"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_pierced",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "5"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_pierced",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "13"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_pierced",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "6"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_rind",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "14"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_rind",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "6"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_rind",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "14"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_rind",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "6"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_rind",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "14"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_rind",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "6"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_rind",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "14"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_rind",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "6"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_rind",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "14"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_rind",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "6"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_rind",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "14"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_rind",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "6"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_rind",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "14"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_rind",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "6"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_rind",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "14"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_rind",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "7"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_aged",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "15"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_aged",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "7"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_aged",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "15"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_aged",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "7"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_aged",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "15"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_aged",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "7"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_aged",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "15"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_aged",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "7"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_aged",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "15"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_aged",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "7"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_aged",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "15"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_aged",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "7"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_aged",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "15"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_aged",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "7"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_aged",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "15"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_aged",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "8"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_extra",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "lower": "16"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_extra",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "8"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_extra",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "lower": "16"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_extra",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "8"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_extra",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "lower": "16"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_extra",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "8"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_extra",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "lower": "16"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_lower_blue_extra",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "8"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_extra",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "upper": "16"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_extra",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "8"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_extra",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "upper": "16"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_extra",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "8"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_extra",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "upper": "16"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_extra",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "8"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_extra",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "upper": "16"
+      },
+      "apply": {
+        "model": "fromage:block/aging_shelf_upper_blue_extra",
+        "y": 90
+      }
+    }
+  ]
+}

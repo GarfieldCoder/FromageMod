@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:oak_slab"
+    }
+  },
+  "result": {
+    "id": "fromage:cheese_mold"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "fromage:block/firebox_basin_0"
+    },
+    "heated=false,stage=1": {
+      "model": "fromage:block/firebox_basin_1"
+    },
+    "heated=true,stage=1": {
+      "model": "fromage:block/firebox_basin_1_swirl"
+    },
+    "heated=false,stage=2": {
+      "model": "fromage:block/firebox_basin_2"
+    },
+    "heated=true,stage=2": {
+      "model": "fromage:block/firebox_basin_2_swirl"
+    },
+    "stage=3": {
+      "model": "fromage:block/firebox_basin_3"
+    },
+    "stage=4": {
+      "model": "fromage:block/firebox_basin_4"
+    },
+    "stage=5": {
+      "model": "fromage:block/firebox_basin_5"
+    },
+    "heated=false,stage=6": {
+      "model": "fromage:block/firebox_basin_2"
+    },
+    "heated=true,stage=6": {
+      "model": "fromage:block/firebox_basin_2_swirl"
+    },
+    "stage=7": {
+      "model": "fromage:block/firebox_basin_3"
+    },
+    "stage=8": {
+      "model": "fromage:block/firebox_basin_whey"
+    }
+  }
+}

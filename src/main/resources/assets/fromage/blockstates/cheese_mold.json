@@ -1,0 +1,73 @@
+{
+  "variants": {
+    "portions=0": {
+      "model": "fromage:block/cheese_mold_0"
+    },
+    "blue=false,cheddar=false,portions=1": {
+      "model": "fromage:block/cheese_mold_1"
+    },
+    "blue=true,cheddar=false,portions=1": {
+      "model": "fromage:block/cheese_mold_blue_1"
+    },
+    "cheddar=true,portions=1": {
+      "model": "fromage:block/cheese_mold_cheddar_1"
+    },
+    "age=0,blue=false,cheddar=false,portions=2,forming=false": {
+      "model": "fromage:block/cheese_mold_2"
+    },
+    "age=1,blue=false,cheddar=false,portions=2,forming=false": {
+      "model": "fromage:block/cheese_mold_farmer_age_1"
+    },
+    "age=2,blue=false,cheddar=false,portions=2,forming=false": {
+      "model": "fromage:block/cheese_mold_farmer_age_2"
+    },
+    "age=0,blue=true,cheddar=false,portions=2,forming=false": {
+      "model": "fromage:block/cheese_mold_blue_age_0"
+    },
+    "age=1,blue=true,cheddar=false,portions=2,forming=false": {
+      "model": "fromage:block/cheese_mold_blue_age_1"
+    },
+    "age=2,blue=true,cheddar=false,portions=2,forming=false": {
+      "model": "fromage:block/cheese_mold_blue_age_2"
+    },
+    "cheddar=true,portions=2,forming=false": {
+      "model": "fromage:block/cheese_mold_cheddar_2"
+    },
+    "blue=false,cheddar=false,forming=true,portions=2,age=0": {
+      "model": "fromage:block/cheese_mold_fresh_loose"
+    },
+    "blue=false,cheddar=false,forming=true,portions=2,age=1": {
+      "model": "fromage:block/cheese_mold_fresh_loose"
+    },
+    "blue=false,cheddar=false,forming=true,portions=2,age=2": {
+      "model": "fromage:block/cheese_mold_fresh_ready"
+    },
+    "blue=true,cheddar=false,forming=true,portions=2,age=0": {
+      "model": "fromage:block/cheese_mold_blue_loose_bundled"
+    },
+    "blue=true,cheddar=false,forming=true,portions=2,age=1": {
+      "model": "fromage:block/cheese_mold_blue_loose_bundled"
+    },
+    "blue=true,cheddar=false,forming=true,portions=2,age=2": {
+      "model": "fromage:block/cheese_mold_blue_ready_bundled"
+    },
+    "age=1,cheddar=true,forming=true,portions=2,press_depth=0": {
+      "model": "fromage:block/cheese_mold_press_0"
+    },
+    "age=1,cheddar=true,forming=true,portions=2,press_depth=1": {
+      "model": "fromage:block/cheese_mold_press_1"
+    },
+    "age=1,cheddar=true,forming=true,portions=2,press_depth=2": {
+      "model": "fromage:block/cheese_mold_press_2"
+    },
+    "age=1,cheddar=true,forming=true,portions=2,press_depth=3": {
+      "model": "fromage:block/cheese_mold_press_3"
+    },
+    "age=0,cheddar=true,forming=true,portions=2": {
+      "model": "fromage:block/cheese_mold_cheddar_2"
+    },
+    "age=2,cheddar=true,forming=true,portions=2": {
+      "model": "fromage:block/cheese_mold_press_done"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "aging_shelf_lower_blue_aged",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "Shelf wheel",
+      "from": [
+        3,
+        2,
+        3
+      ],
+      "to": [
+        13,
+        6,
+        13
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000000",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "a6400000-0000-4000-8000-000000000000"
+  ],
+  "textures": [
+    {
+      "id": "0",
+      "name": "blue_aged_side.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000000",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/blue_aged_side.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAVklEQVR4nGN4fGPbf1Lwyb0zUDADugCpGG5A2cQmMEZXUDezA4yJNiClrRKMQWLZvQ1gTJQLsGFkA6Ys7CLNgI4F3WBMMAxWzC77TwqmXSyMGjCiDQAAtGgTwZUSNFkAAAAASUVORK5CYII="
+    },
+    {
+      "id": "1",
+      "name": "blue_aged_top.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000001",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/blue_aged_top.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAoElEQVR4nGNYNKPsPwyvW1IPxshi6PjulbUomAEkeHL/zP9XTi9DwSAxdIzXgCe3tmHgnnktYAxiEzSge147GKMbktZdSx0Dzh9ZQNgLqT1NYIzNO3gNuHh8EYoBdbM7wBjZALxegBmAEYgLulEMWL+0gXQDiia3gjFeA3BFIwgjG4A3EHFhUOCBMF4DQHjtknowxpeMsRqALkAqHgYGAAB+zSyraVlMHQAAAABJRU5ErkJggg=="
+    }
+  ]
+}

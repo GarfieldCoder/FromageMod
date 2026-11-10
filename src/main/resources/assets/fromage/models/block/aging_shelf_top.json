@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "shelf_rail": "fromage:block/shelf_rail",
+    "particle": "fromage:block/shelf_rail"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        14,
+        2
+      ],
+      "to": [
+        16,
+        16,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#shelf_rail",
+          "uv": [
+            0,
+            0,
+            16,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#shelf_rail",
+          "uv": [
+            0,
+            0,
+            16,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#shelf_rail",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ]
+        },
+        "south": {
+          "texture": "#shelf_rail",
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ]
+        },
+        "west": {
+          "texture": "#shelf_rail",
+          "uv": [
+            0,
+            0,
+            11,
+            2
+          ]
+        },
+        "east": {
+          "texture": "#shelf_rail",
+          "uv": [
+            0,
+            0,
+            11,
+            2
+          ]
+        }
+      }
+    }
+  ]
+}

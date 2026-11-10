@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "aging_shelf_lower_cheddar_extra",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "Shelf wheel",
+      "from": [
+        3,
+        2,
+        3
+      ],
+      "to": [
+        13,
+        6,
+        13
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000000",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "a6400000-0000-4000-8000-000000000000"
+  ],
+  "textures": [
+    {
+      "id": "0",
+      "name": "cheddar_extra_side.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000000",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/cheddar_extra_side.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAT0lEQVR4nGP4tjfpPyl4R5UpCmaYkaCHIYgLY1MLNwCXDTA5ggbgw+82xZBmwM9zjf9vznOFY6K8AFOAz0U4DSAFYxhAbAzgwqMGjBoAwgAKBGyua59/jAAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "1",
+      "name": "cheddar_extra_top.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000001",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/cheddar_extra_top.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAYUlEQVR4nGOYkaD3nxR8c54rCmYACX7bm0QQgxTjNQBdAh3vqDIlzwCQ3LtNMcQZAHPuz3ON1HMB2QaANIAw/Qw412MFxlSNhRPdFmBM0ABkJ+PDOA2gKCkTij5CeBgYAAAl2qFsVFofnwAAAABJRU5ErkJggg=="
+    }
+  ]
+}

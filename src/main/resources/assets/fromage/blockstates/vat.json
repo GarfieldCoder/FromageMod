@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "fromage:block/vat_0"
+    },
+    "stage=1": {
+      "model": "fromage:block/vat_1"
+    },
+    "stage=2": {
+      "model": "fromage:block/vat_2"
+    },
+    "stage=3": {
+      "model": "fromage:block/vat_3"
+    },
+    "stage=4": {
+      "model": "fromage:block/vat_4"
+    },
+    "stage=5": {
+      "model": "fromage:block/vat_5"
+    },
+    "stage=6": {
+      "model": "fromage:block/vat_2"
+    },
+    "stage=7": {
+      "model": "fromage:block/vat_3"
+    },
+    "stage=8": {
+      "model": "fromage:block/vat_whey"
+    }
+  }
+}

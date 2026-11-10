@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "V",
+    "C"
+  ],
+  "key": {
+    "V": {
+      "item": "fromage:vat"
+    },
+    "C": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "result": {
+    "id": "fromage:firebox_vat"
+  }
+}

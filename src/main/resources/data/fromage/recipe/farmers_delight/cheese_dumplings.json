@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "fromage:cooking_cheese"
+    },
+    {
+      "tag": "c:foods/dough/wheat"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    }
+  ],
+  "cookingtime": 160,
+  "experience": 0.35,
+  "result": {
+    "id": "fromage:cheese_dumplings"
+  }
+}

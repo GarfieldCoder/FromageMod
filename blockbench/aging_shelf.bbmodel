@@ -1,0 +1,900 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "aging_shelf",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "Lower rail",
+      "from": [
+        0,
+        1,
+        2.25
+      ],
+      "to": [
+        16,
+        2,
+        13.75
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000000",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            11.5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            11.5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            11.5,
+            1
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            11.5,
+            1
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Upper rail",
+      "from": [
+        0,
+        8,
+        2.25
+      ],
+      "to": [
+        16,
+        9,
+        13.75
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000001",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            11.5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            11.5
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            1
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            11.5,
+            1
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            11.5,
+            1
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Crown board",
+      "from": [
+        0,
+        14,
+        2
+      ],
+      "to": [
+        16,
+        16,
+        13
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000002",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            11
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            11,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            11,
+            2
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Carved end",
+      "from": [
+        0,
+        0,
+        2
+      ],
+      "to": [
+        2,
+        14,
+        14
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000003",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            12
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            12
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            14
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            14
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            14
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Square peg",
+      "from": [
+        0,
+        14,
+        13
+      ],
+      "to": [
+        2,
+        16,
+        15
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000004",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Front shoe",
+      "from": [
+        0,
+        0,
+        14
+      ],
+      "to": [
+        2,
+        2,
+        15
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000005",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Back shoe",
+      "from": [
+        0,
+        0,
+        1
+      ],
+      "to": [
+        2,
+        2,
+        2
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000006",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Carved end",
+      "from": [
+        14,
+        0,
+        2
+      ],
+      "to": [
+        16,
+        14,
+        14
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000007",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            12
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            12
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            14
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            14
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            14
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Square peg",
+      "from": [
+        14,
+        14,
+        13
+      ],
+      "to": [
+        16,
+        16,
+        15
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000008",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Front shoe",
+      "from": [
+        14,
+        0,
+        14
+      ],
+      "to": [
+        16,
+        2,
+        15
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000009",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Back shoe",
+      "from": [
+        14,
+        0,
+        1
+      ],
+      "to": [
+        16,
+        2,
+        2
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000010",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "a6400000-0000-4000-8000-000000000000",
+    "a6400000-0000-4000-8000-000000000001",
+    "a6400000-0000-4000-8000-000000000002",
+    "a6400000-0000-4000-8000-000000000003",
+    "a6400000-0000-4000-8000-000000000004",
+    "a6400000-0000-4000-8000-000000000005",
+    "a6400000-0000-4000-8000-000000000006",
+    "a6400000-0000-4000-8000-000000000007",
+    "a6400000-0000-4000-8000-000000000008",
+    "a6400000-0000-4000-8000-000000000009",
+    "a6400000-0000-4000-8000-000000000010"
+  ],
+  "textures": [
+    {
+      "id": "0",
+      "name": "shelf_rail.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000000",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/shelf_rail.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAASUlEQVR4nGPY3ujznxLMUOqu/J8SzDAj0fI/JZihJ8zgPyWYchfAGEuzHXBiogyg2AWEcGuALlZMPxcQZcDqQheseHAE4jA2AABroy/Vp+PtDgAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "1",
+      "name": "shelf_carved.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000001",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/shelf_carved.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR4nGModFb6v7cl4P/cVGu8eH9XyP9SDzUMcQaqGtAQoP1/W6X7IDGg1F2VfAPaQvTBBuxu9BmqBlAcBlSJhe3VngNgADKm2ICByUzkGAAAGNs6KLPMROoAAAAASUVORK5CYII="
+    }
+  ]
+}

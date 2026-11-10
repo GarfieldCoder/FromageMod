@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "aged_cheddar_block_3",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "Half wheel",
+      "from": [
+        2,
+        0,
+        8
+      ],
+      "to": [
+        14,
+        7,
+        14
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000000",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            12,
+            6
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            6,
+            12,
+            12
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            6,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Quarter",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        8,
+        7,
+        8
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000001",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            6,
+            6,
+            12
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            6,
+            6
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            6,
+            0,
+            12,
+            7
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            6,
+            0,
+            12,
+            7
+          ],
+          "texture": 2
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "a6400000-0000-4000-8000-000000000000",
+    "a6400000-0000-4000-8000-000000000001"
+  ],
+  "textures": [
+    {
+      "id": "0",
+      "name": "cheddar_aged_side.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000000",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/cheddar_aged_side.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAASElEQVR4nGP4vjf0Pyn42mxrFMywuUwXQxAXxqYWbgAuG0D4/4UCwgZQ7AJ0fHuKCRwTbQC6BqJdQArGMIBY/+PCowaMGgDCAEsYqTeWrAyXAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "1",
+      "name": "cheddar_aged_top.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000001",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/cheddar_aged_top.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAV0lEQVR4nGPYXKb7nxT8boMXCmYACX7fG0oUxmsAugQ6vj3FhDwD/l8oIN4AkGKYBqq5gGwDQBpAmL4G4PI/RWEASwN4DUB2Mj6M0wCKkjKh6COEh4EBAHtnzE45PTNiAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "2",
+      "name": "cheddar_cut.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000002",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/cheddar_cut.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAQ0lEQVR4nGP4frz4PyWY4cPOmP+UYJwG/L/YTZoBT5cHgTHVXICMX6yNAGOiDPhxrIA0Fzxe4vufEky7WBg1YEQZAAAWgQPf4ONvPQAAAABJRU5ErkJggg=="
+    }
+  ]
+}

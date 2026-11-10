@@ -1,0 +1,97 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "blue_aged_side": "fromage:block/blue_aged_side",
+    "blue_aged_top": "fromage:block/blue_aged_top",
+    "blue_cut": "fromage:block/blue_cut"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        5
+      ],
+      "to": [
+        11,
+        7,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#blue_aged_side",
+          "uv": [
+            0,
+            0,
+            6,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#blue_aged_top",
+          "uv": [
+            3,
+            3,
+            9,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#blue_cut",
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#blue_aged_side",
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#blue_aged_side",
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#blue_cut",
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        25,
+        315,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.92,
+        0.92,
+        0.92
+      ]
+    }
+  }
+}

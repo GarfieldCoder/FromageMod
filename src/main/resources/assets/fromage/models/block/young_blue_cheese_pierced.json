@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "blue_pierced_side": "fromage:block/blue_pierced_side",
+    "blue_pierced_top": "fromage:block/blue_pierced_top",
+    "particle": "fromage:block/blue_pierced_side"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        6,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#blue_pierced_side",
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#blue_pierced_top",
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#blue_pierced_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#blue_pierced_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#blue_pierced_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#blue_pierced_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

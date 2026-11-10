@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "cheddar_aged_side": "fromage:block/cheddar_aged_side",
+    "cheddar_aged_top": "fromage:block/cheddar_aged_top",
+    "particle": "fromage:block/cheddar_aged_side"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        7,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#cheddar_aged_side",
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#cheddar_aged_top",
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#cheddar_aged_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#cheddar_aged_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#cheddar_aged_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#cheddar_aged_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "aged_cheese_side": "fromage:block/aged_cheese_side",
+    "aged_cheese_top": "fromage:block/aged_cheese_top",
+    "particle": "fromage:block/aged_cheese_side"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        7,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#aged_cheese_side",
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#aged_cheese_top",
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#aged_cheese_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#aged_cheese_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#aged_cheese_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#aged_cheese_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "fromage:farmers_cheese"
+    }
+  ],
+  "result": {
+    "id": "fromage:cheese_toast",
+    "count": 1
+  }
+}

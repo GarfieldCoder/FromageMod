@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ],
+  "type": "kaleidoscope_cookery:pot",
+  "ingredients": [
+    {
+      "tag": "fromage:cooking_cheese"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:crops/lettuce"
+    }
+  ],
+  "time": 120,
+  "stir_fry_count": 3,
+  "result": {
+    "id": "fromage:cheese_flatbread"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "fromage:block/pasta_bowl",
+  "display": {
+    "gui": {
+      "rotation": [
+        31,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        3.5,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    }
+  }
+}

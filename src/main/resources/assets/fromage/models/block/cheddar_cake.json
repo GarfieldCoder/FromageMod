@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cake",
+  "textures": {
+    "top": "fromage:block/cheddar_cake_top"
+  }
+}

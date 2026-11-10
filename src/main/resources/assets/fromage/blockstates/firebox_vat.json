@@ -1,0 +1,292 @@
+{
+  "variants": {
+    "facing=south,lit=false,stage=0": {
+      "model": "fromage:block/firebox_compact_0",
+      "y": 0
+    },
+    "facing=west,lit=false,stage=0": {
+      "model": "fromage:block/firebox_compact_0",
+      "y": 90
+    },
+    "facing=north,lit=false,stage=0": {
+      "model": "fromage:block/firebox_compact_0",
+      "y": 180
+    },
+    "facing=east,lit=false,stage=0": {
+      "model": "fromage:block/firebox_compact_0",
+      "y": 270
+    },
+    "facing=south,lit=true,stage=0": {
+      "model": "fromage:block/firebox_compact_0_lit",
+      "y": 0
+    },
+    "facing=west,lit=true,stage=0": {
+      "model": "fromage:block/firebox_compact_0_lit",
+      "y": 90
+    },
+    "facing=north,lit=true,stage=0": {
+      "model": "fromage:block/firebox_compact_0_lit",
+      "y": 180
+    },
+    "facing=east,lit=true,stage=0": {
+      "model": "fromage:block/firebox_compact_0_lit",
+      "y": 270
+    },
+    "facing=south,lit=false,stage=1": {
+      "model": "fromage:block/firebox_compact_1",
+      "y": 0
+    },
+    "facing=west,lit=false,stage=1": {
+      "model": "fromage:block/firebox_compact_1",
+      "y": 90
+    },
+    "facing=north,lit=false,stage=1": {
+      "model": "fromage:block/firebox_compact_1",
+      "y": 180
+    },
+    "facing=east,lit=false,stage=1": {
+      "model": "fromage:block/firebox_compact_1",
+      "y": 270
+    },
+    "facing=south,lit=true,stage=1": {
+      "model": "fromage:block/firebox_compact_1_lit",
+      "y": 0
+    },
+    "facing=west,lit=true,stage=1": {
+      "model": "fromage:block/firebox_compact_1_lit",
+      "y": 90
+    },
+    "facing=north,lit=true,stage=1": {
+      "model": "fromage:block/firebox_compact_1_lit",
+      "y": 180
+    },
+    "facing=east,lit=true,stage=1": {
+      "model": "fromage:block/firebox_compact_1_lit",
+      "y": 270
+    },
+    "facing=south,lit=false,stage=2": {
+      "model": "fromage:block/firebox_compact_2",
+      "y": 0
+    },
+    "facing=west,lit=false,stage=2": {
+      "model": "fromage:block/firebox_compact_2",
+      "y": 90
+    },
+    "facing=north,lit=false,stage=2": {
+      "model": "fromage:block/firebox_compact_2",
+      "y": 180
+    },
+    "facing=east,lit=false,stage=2": {
+      "model": "fromage:block/firebox_compact_2",
+      "y": 270
+    },
+    "facing=south,lit=true,stage=2": {
+      "model": "fromage:block/firebox_compact_2_lit",
+      "y": 0
+    },
+    "facing=west,lit=true,stage=2": {
+      "model": "fromage:block/firebox_compact_2_lit",
+      "y": 90
+    },
+    "facing=north,lit=true,stage=2": {
+      "model": "fromage:block/firebox_compact_2_lit",
+      "y": 180
+    },
+    "facing=east,lit=true,stage=2": {
+      "model": "fromage:block/firebox_compact_2_lit",
+      "y": 270
+    },
+    "facing=south,lit=false,stage=3": {
+      "model": "fromage:block/firebox_compact_3",
+      "y": 0
+    },
+    "facing=west,lit=false,stage=3": {
+      "model": "fromage:block/firebox_compact_3",
+      "y": 90
+    },
+    "facing=north,lit=false,stage=3": {
+      "model": "fromage:block/firebox_compact_3",
+      "y": 180
+    },
+    "facing=east,lit=false,stage=3": {
+      "model": "fromage:block/firebox_compact_3",
+      "y": 270
+    },
+    "facing=south,lit=true,stage=3": {
+      "model": "fromage:block/firebox_compact_3_lit",
+      "y": 0
+    },
+    "facing=west,lit=true,stage=3": {
+      "model": "fromage:block/firebox_compact_3_lit",
+      "y": 90
+    },
+    "facing=north,lit=true,stage=3": {
+      "model": "fromage:block/firebox_compact_3_lit",
+      "y": 180
+    },
+    "facing=east,lit=true,stage=3": {
+      "model": "fromage:block/firebox_compact_3_lit",
+      "y": 270
+    },
+    "facing=south,lit=false,stage=4": {
+      "model": "fromage:block/firebox_compact_4",
+      "y": 0
+    },
+    "facing=west,lit=false,stage=4": {
+      "model": "fromage:block/firebox_compact_4",
+      "y": 90
+    },
+    "facing=north,lit=false,stage=4": {
+      "model": "fromage:block/firebox_compact_4",
+      "y": 180
+    },
+    "facing=east,lit=false,stage=4": {
+      "model": "fromage:block/firebox_compact_4",
+      "y": 270
+    },
+    "facing=south,lit=true,stage=4": {
+      "model": "fromage:block/firebox_compact_4_lit",
+      "y": 0
+    },
+    "facing=west,lit=true,stage=4": {
+      "model": "fromage:block/firebox_compact_4_lit",
+      "y": 90
+    },
+    "facing=north,lit=true,stage=4": {
+      "model": "fromage:block/firebox_compact_4_lit",
+      "y": 180
+    },
+    "facing=east,lit=true,stage=4": {
+      "model": "fromage:block/firebox_compact_4_lit",
+      "y": 270
+    },
+    "facing=south,lit=false,stage=5": {
+      "model": "fromage:block/firebox_compact_5",
+      "y": 0
+    },
+    "facing=west,lit=false,stage=5": {
+      "model": "fromage:block/firebox_compact_5",
+      "y": 90
+    },
+    "facing=north,lit=false,stage=5": {
+      "model": "fromage:block/firebox_compact_5",
+      "y": 180
+    },
+    "facing=east,lit=false,stage=5": {
+      "model": "fromage:block/firebox_compact_5",
+      "y": 270
+    },
+    "facing=south,lit=true,stage=5": {
+      "model": "fromage:block/firebox_compact_5_lit",
+      "y": 0
+    },
+    "facing=west,lit=true,stage=5": {
+      "model": "fromage:block/firebox_compact_5_lit",
+      "y": 90
+    },
+    "facing=north,lit=true,stage=5": {
+      "model": "fromage:block/firebox_compact_5_lit",
+      "y": 180
+    },
+    "facing=east,lit=true,stage=5": {
+      "model": "fromage:block/firebox_compact_5_lit",
+      "y": 270
+    },
+    "facing=south,lit=false,stage=6": {
+      "model": "fromage:block/firebox_compact_2",
+      "y": 0
+    },
+    "facing=west,lit=false,stage=6": {
+      "model": "fromage:block/firebox_compact_2",
+      "y": 90
+    },
+    "facing=north,lit=false,stage=6": {
+      "model": "fromage:block/firebox_compact_2",
+      "y": 180
+    },
+    "facing=east,lit=false,stage=6": {
+      "model": "fromage:block/firebox_compact_2",
+      "y": 270
+    },
+    "facing=south,lit=true,stage=6": {
+      "model": "fromage:block/firebox_compact_2_lit",
+      "y": 0
+    },
+    "facing=west,lit=true,stage=6": {
+      "model": "fromage:block/firebox_compact_2_lit",
+      "y": 90
+    },
+    "facing=north,lit=true,stage=6": {
+      "model": "fromage:block/firebox_compact_2_lit",
+      "y": 180
+    },
+    "facing=east,lit=true,stage=6": {
+      "model": "fromage:block/firebox_compact_2_lit",
+      "y": 270
+    },
+    "facing=south,lit=false,stage=7": {
+      "model": "fromage:block/firebox_compact_3",
+      "y": 0
+    },
+    "facing=west,lit=false,stage=7": {
+      "model": "fromage:block/firebox_compact_3",
+      "y": 90
+    },
+    "facing=north,lit=false,stage=7": {
+      "model": "fromage:block/firebox_compact_3",
+      "y": 180
+    },
+    "facing=east,lit=false,stage=7": {
+      "model": "fromage:block/firebox_compact_3",
+      "y": 270
+    },
+    "facing=south,lit=true,stage=7": {
+      "model": "fromage:block/firebox_compact_3_lit",
+      "y": 0
+    },
+    "facing=west,lit=true,stage=7": {
+      "model": "fromage:block/firebox_compact_3_lit",
+      "y": 90
+    },
+    "facing=north,lit=true,stage=7": {
+      "model": "fromage:block/firebox_compact_3_lit",
+      "y": 180
+    },
+    "facing=east,lit=true,stage=7": {
+      "model": "fromage:block/firebox_compact_3_lit",
+      "y": 270
+    },
+    "facing=south,lit=false,stage=8": {
+      "model": "fromage:block/firebox_compact_whey",
+      "y": 0
+    },
+    "facing=west,lit=false,stage=8": {
+      "model": "fromage:block/firebox_compact_whey",
+      "y": 90
+    },
+    "facing=north,lit=false,stage=8": {
+      "model": "fromage:block/firebox_compact_whey",
+      "y": 180
+    },
+    "facing=east,lit=false,stage=8": {
+      "model": "fromage:block/firebox_compact_whey",
+      "y": 270
+    },
+    "facing=south,lit=true,stage=8": {
+      "model": "fromage:block/firebox_compact_whey_lit",
+      "y": 0
+    },
+    "facing=west,lit=true,stage=8": {
+      "model": "fromage:block/firebox_compact_whey_lit",
+      "y": 90
+    },
+    "facing=north,lit=true,stage=8": {
+      "model": "fromage:block/firebox_compact_whey_lit",
+      "y": 180
+    },
+    "facing=east,lit=true,stage=8": {
+      "model": "fromage:block/firebox_compact_whey_lit",
+      "y": 270
+    }
+  }
+}

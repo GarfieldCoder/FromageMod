@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fromage:aged_blue_cheese_block"
+    }
+  ],
+  "result": {
+    "id": "fromage:blue_cheese_wedge",
+    "count": 4
+  }
+}

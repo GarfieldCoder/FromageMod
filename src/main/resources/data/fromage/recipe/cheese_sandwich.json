@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "fromage:cheese_toast"
+  },
+  "result": {
+    "id": "fromage:cheese_sandwich"
+  },
+  "experience": 0.2,
+  "cookingtime": 100
+}

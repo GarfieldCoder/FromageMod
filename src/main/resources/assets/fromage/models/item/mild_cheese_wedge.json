@@ -1,0 +1,97 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "aged_cheese_side": "fromage:block/aged_cheese_side",
+    "aged_cheese_top": "fromage:block/aged_cheese_top",
+    "mild_cut": "fromage:block/mild_cut"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0,
+        5
+      ],
+      "to": [
+        11,
+        7,
+        11
+      ],
+      "faces": {
+        "down": {
+          "texture": "#aged_cheese_side",
+          "uv": [
+            0,
+            0,
+            6,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#aged_cheese_top",
+          "uv": [
+            3,
+            3,
+            9,
+            9
+          ]
+        },
+        "north": {
+          "texture": "#mild_cut",
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#aged_cheese_side",
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#aged_cheese_side",
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#mild_cut",
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        25,
+        315,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.92,
+        0.92,
+        0.92
+      ]
+    }
+  }
+}

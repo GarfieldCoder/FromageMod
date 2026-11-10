@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fromage:pasta_bowl"
+    },
+    {
+      "item": "fromage:grated_cheddar"
+    }
+  ],
+  "result": {
+    "id": "fromage:cheddar_pasta"
+  }
+}

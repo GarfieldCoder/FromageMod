@@ -1,0 +1,1440 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "cheese_press_5",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "Base rails",
+      "from": [
+        0,
+        0,
+        2
+      ],
+      "to": [
+        16,
+        2,
+        14
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000000",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            2
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Left timber",
+      "from": [
+        0,
+        2,
+        3
+      ],
+      "to": [
+        2,
+        13,
+        13
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000001",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            10
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            10
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            11
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            10,
+            11
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            10,
+            11
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Right timber",
+      "from": [
+        14,
+        2,
+        3
+      ],
+      "to": [
+        16,
+        13,
+        13
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000002",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            10
+          ],
+          "texture": 1
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            10
+          ],
+          "texture": 1
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            11
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            10,
+            11
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            10,
+            11
+          ],
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Top crossbeam",
+      "from": [
+        0,
+        11.5,
+        3
+      ],
+      "to": [
+        16,
+        13,
+        13
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000003",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            10
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            1.5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            10,
+            1.5
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            10,
+            1.5
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Left iron strap",
+      "from": [
+        0,
+        10,
+        2.8
+      ],
+      "to": [
+        2.15,
+        12,
+        13.2
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000004",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.15,
+            10.399999999999999
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2.15,
+            10.399999999999999
+          ],
+          "texture": 2
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.15,
+            2
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.15,
+            2
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            10.399999999999999,
+            2
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            10.399999999999999,
+            2
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "Right iron strap",
+      "from": [
+        13.85,
+        10,
+        2.8
+      ],
+      "to": [
+        16,
+        12,
+        13.2
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000005",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            10.399999999999999
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            10.399999999999999
+          ],
+          "texture": 2
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            2
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.1500000000000004,
+            2
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            10.399999999999999,
+            2
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            10.399999999999999,
+            2
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "Whey spout",
+      "from": [
+        7,
+        2,
+        13
+      ],
+      "to": [
+        9,
+        3,
+        15
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000006",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Screw collar",
+      "from": [
+        7,
+        14,
+        6.75
+      ],
+      "to": [
+        9,
+        16,
+        9.25
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000007",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            2,
+            2.5
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            2.5
+          ],
+          "texture": 2
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            2
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2.5,
+            2
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "Screw handle",
+      "from": [
+        4,
+        14.5,
+        7
+      ],
+      "to": [
+        12,
+        16,
+        9
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000008",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            2
+          ],
+          "texture": 0
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            1.5
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Threaded screw",
+      "from": [
+        7.2,
+        10,
+        7.2
+      ],
+      "to": [
+        8.8,
+        14.5,
+        8.8
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000009",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.6000000000000005,
+            1.6000000000000005
+          ],
+          "texture": 3
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.6000000000000005,
+            1.6000000000000005
+          ],
+          "texture": 3
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.6000000000000005,
+            4.5
+          ],
+          "texture": 3
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.6000000000000005,
+            4.5
+          ],
+          "texture": 3
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1.6000000000000005,
+            4.5
+          ],
+          "texture": 3
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1.6000000000000005,
+            4.5
+          ],
+          "texture": 3
+        }
+      }
+    },
+    {
+      "name": "Press plate",
+      "from": [
+        4,
+        9,
+        4
+      ],
+      "to": [
+        12,
+        10,
+        12
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000010",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "texture": 2
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "texture": 2
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ],
+          "texture": 2
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ],
+          "texture": 2
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ],
+          "texture": 2
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ],
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "Mold bottom",
+      "from": [
+        3,
+        2,
+        3
+      ],
+      "to": [
+        13,
+        3,
+        13
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000011",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            10,
+            10
+          ],
+          "texture": 4
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10,
+            10
+          ],
+          "texture": 4
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ],
+          "texture": 4
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ],
+          "texture": 4
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ],
+          "texture": 4
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ],
+          "texture": 4
+        }
+      }
+    },
+    {
+      "name": "Mold front",
+      "from": [
+        3,
+        3,
+        12
+      ],
+      "to": [
+        13,
+        5,
+        13
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000012",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ],
+          "texture": 5
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ],
+          "texture": 5
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            10,
+            2
+          ],
+          "texture": 5
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10,
+            2
+          ],
+          "texture": 5
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 5
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 5
+        }
+      }
+    },
+    {
+      "name": "Mold back",
+      "from": [
+        3,
+        3,
+        3
+      ],
+      "to": [
+        13,
+        5,
+        4
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000013",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ],
+          "texture": 5
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ],
+          "texture": 5
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            10,
+            2
+          ],
+          "texture": 5
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            10,
+            2
+          ],
+          "texture": 5
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 5
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 5
+        }
+      }
+    },
+    {
+      "name": "Mold left",
+      "from": [
+        3,
+        3,
+        4
+      ],
+      "to": [
+        4,
+        5,
+        12
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000014",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            1,
+            8
+          ],
+          "texture": 5
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1,
+            8
+          ],
+          "texture": 5
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 5
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 5
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            8,
+            2
+          ],
+          "texture": 5
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            8,
+            2
+          ],
+          "texture": 5
+        }
+      }
+    },
+    {
+      "name": "Mold right",
+      "from": [
+        12,
+        3,
+        4
+      ],
+      "to": [
+        13,
+        5,
+        12
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000015",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            1,
+            8
+          ],
+          "texture": 5
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1,
+            8
+          ],
+          "texture": 5
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 5
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "texture": 5
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            8,
+            2
+          ],
+          "texture": 5
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            8,
+            2
+          ],
+          "texture": 5
+        }
+      }
+    },
+    {
+      "name": "Pressed cheddar",
+      "from": [
+        4,
+        3,
+        4
+      ],
+      "to": [
+        12,
+        4.8,
+        12
+      ],
+      "type": "cube",
+      "box_uv": false,
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "uuid": "a6400000-0000-4000-8000-000000000016",
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "texture": 6
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            12,
+            12
+          ],
+          "texture": 7
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 6
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 6
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 6
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ],
+          "texture": 6
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "a6400000-0000-4000-8000-000000000000",
+    "a6400000-0000-4000-8000-000000000001",
+    "a6400000-0000-4000-8000-000000000002",
+    "a6400000-0000-4000-8000-000000000003",
+    "a6400000-0000-4000-8000-000000000004",
+    "a6400000-0000-4000-8000-000000000005",
+    "a6400000-0000-4000-8000-000000000006",
+    "a6400000-0000-4000-8000-000000000007",
+    "a6400000-0000-4000-8000-000000000008",
+    "a6400000-0000-4000-8000-000000000009",
+    "a6400000-0000-4000-8000-000000000010",
+    "a6400000-0000-4000-8000-000000000011",
+    "a6400000-0000-4000-8000-000000000012",
+    "a6400000-0000-4000-8000-000000000013",
+    "a6400000-0000-4000-8000-000000000014",
+    "a6400000-0000-4000-8000-000000000015",
+    "a6400000-0000-4000-8000-000000000016"
+  ],
+  "textures": [
+    {
+      "id": "0",
+      "name": "shelf_rail.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000000",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/shelf_rail.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAASUlEQVR4nGPY3ujznxLMUOqu/J8SzDAj0fI/JZihJ8zgPyWYchfAGEuzHXBiogyg2AWEcGuALlZMPxcQZcDqQheseHAE4jA2AABroy/Vp+PtDgAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "1",
+      "name": "shelf_carved.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000001",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/shelf_carved.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU0lEQVR4nGModFb6v7cl4P/cVGu8eH9XyP9SDzUMcQaqGtAQoP1/W6X7IDGg1F2VfAPaQvTBBuxu9BmqBlAcBlSJhe3VngNgADKm2ICByUzkGAAAGNs6KLPMROoAAAAASUVORK5CYII="
+    },
+    {
+      "id": "2",
+      "name": "press_iron.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000002",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/press_iron.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATElEQVR4nGOYN639PyWYoSQ35T8pODM5GgXDDVizeDKKwrWLphBlIIOft9t/SjBDe0PRf0owyWGA4QWKDQgN9PpPCR4EXhg1YBAYAAAIq0PSvIYzMQAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "3",
+      "name": "press_screw.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000003",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/press_screw.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAKUlEQVR4nGOYPaHhPwgnx4aShRlAhLerA/kGjLpg1AWDwwXkahxGBgAAdIMZiQGebwgAAAAASUVORK5CYII="
+    },
+    {
+      "id": "4",
+      "name": "mold_inside.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000004",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/mold_inside.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAOElEQVR4nGNYWurxnxLM0BBi8p8STLQBkxKtUTCKAZNTrFEwTVyA04ACD93/lGD6BeKoAaMG4MMAP8ILz1imk54AAAAASUVORK5CYII="
+    },
+    {
+      "id": "5",
+      "name": "mold_oak.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000005",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/mold_oak.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAATElEQVR4nGM41hv2nxLMsLbC4z8lmGFOhu1/SjDYgJ1N/nBMlgHIOMxSCYzxsfEakOmhD8a42GtLXOEYbEB1gP5/SjB1AnHUgBFvAADHeECTSeiycwAAAABJRU5ErkJggg=="
+    },
+    {
+      "id": "6",
+      "name": "cheddar_young_side.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000006",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/cheddar_young_side.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAASElEQVR4nGN4c6bnPyn4zKxgFMxwsNcTQxAXxqYWbgAuG0D48/VZhA2g2AXo+NqKCDgm2gB0DUS7gBSMYQCx/seFRw0YNQCEAVSWvgmG13YNAAAAAElFTkSuQmCC"
+    },
+    {
+      "id": "7",
+      "name": "cheddar_young_top.png",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "uuid": "a6401000-0000-4000-8000-000000000007",
+      "relative_path": "../src/main/resources/assets/fromage/textures/block/cheddar_young_top.png",
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAV0lEQVR4nGM42Ov5nxT85EAZCmYACb4500MUxmsAugQ6vrYigjwDPl+fRbwBIMUwDVRzAdkGgDSAMH0NwOV/isIAlgbwGoDsZHwYpwEUJWVC0UcIDwMDAGEpAYatHwSDAAAAAElFTkSuQmCC"
+    }
+  ]
+}

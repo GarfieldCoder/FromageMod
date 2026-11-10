@@ -1,0 +1,79 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "blue_extra_side": "fromage:block/blue_extra_side",
+    "blue_extra_top": "fromage:block/blue_extra_top",
+    "blue_cut": "fromage:block/blue_extra_cut",
+    "particle": "fromage:block/blue_extra_side"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        8
+      ],
+      "to": [
+        14,
+        7,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#blue_extra_side",
+          "uv": [
+            0,
+            0,
+            12,
+            6
+          ]
+        },
+        "up": {
+          "texture": "#blue_extra_top",
+          "uv": [
+            0,
+            6,
+            12,
+            12
+          ]
+        },
+        "north": {
+          "texture": "#blue_cut",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "south": {
+          "texture": "#blue_extra_side",
+          "uv": [
+            0,
+            0,
+            12,
+            7
+          ]
+        },
+        "west": {
+          "texture": "#blue_extra_side",
+          "uv": [
+            6,
+            0,
+            12,
+            7
+          ]
+        },
+        "east": {
+          "texture": "#blue_extra_side",
+          "uv": [
+            0,
+            0,
+            6,
+            7
+          ]
+        }
+      }
+    }
+  ]
+}

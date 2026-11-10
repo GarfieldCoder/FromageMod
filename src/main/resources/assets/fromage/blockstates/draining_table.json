@@ -1,0 +1,250 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "fromage:block/draining_table_0"
+    },
+    "stage=1": {
+      "model": "fromage:block/draining_table_1"
+    },
+    "stage=4": {
+      "model": "fromage:block/draining_table_4"
+    },
+    "stage=5": {
+      "model": "fromage:block/draining_table_4"
+    },
+    "stage=6": {
+      "model": "fromage:block/draining_table_0"
+    },
+    "stage=7": {
+      "model": "fromage:block/draining_table_0"
+    },
+    "stage=8": {
+      "model": "fromage:block/draining_table_0"
+    },
+    "batch=cheddar,drain_progress=0,stage=3,whey_pending=true": {
+      "model": "fromage:block/draining_table_cheddar_0"
+    },
+    "batch=cheddar,drain_progress=0,stage=3,whey_pending=false": {
+      "model": "fromage:block/draining_table_cheddar_0_dry_tray"
+    },
+    "batch=cheddar,drain_progress=1,stage=3,whey_pending=true": {
+      "model": "fromage:block/draining_table_cheddar_1"
+    },
+    "batch=cheddar,drain_progress=1,stage=3,whey_pending=false": {
+      "model": "fromage:block/draining_table_cheddar_1_dry_tray"
+    },
+    "batch=cheddar,drain_progress=2,stage=3,whey_pending=true": {
+      "model": "fromage:block/draining_table_cheddar_2"
+    },
+    "batch=cheddar,drain_progress=2,stage=3,whey_pending=false": {
+      "model": "fromage:block/draining_table_cheddar_2_dry_tray"
+    },
+    "batch=cheddar,drain_progress=3,stage=3,whey_pending=true": {
+      "model": "fromage:block/draining_table_cheddar_2"
+    },
+    "batch=cheddar,drain_progress=3,stage=3,whey_pending=false": {
+      "model": "fromage:block/draining_table_cheddar_2_dry_tray"
+    },
+    "batch=cheddar,drain_progress=4,stage=3,whey_pending=true": {
+      "model": "fromage:block/draining_table_cheddar_2"
+    },
+    "batch=cheddar,drain_progress=4,stage=3,whey_pending=false": {
+      "model": "fromage:block/draining_table_cheddar_2_dry_tray"
+    },
+    "batch=cheddar,drain_progress=5,stage=3,whey_pending=true": {
+      "model": "fromage:block/draining_table_cheddar_2"
+    },
+    "batch=cheddar,drain_progress=5,stage=3,whey_pending=false": {
+      "model": "fromage:block/draining_table_cheddar_2_dry_tray"
+    },
+    "batch=plain,blue=false,drain_progress=0,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=cultured,blue=false,drain_progress=0,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=blue,blue=false,drain_progress=0,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=plain,blue=false,drain_progress=1,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=cultured,blue=false,drain_progress=1,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=blue,blue=false,drain_progress=1,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=plain,blue=false,drain_progress=2,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=cultured,blue=false,drain_progress=2,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=blue,blue=false,drain_progress=2,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=plain,blue=false,drain_progress=3,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=cultured,blue=false,drain_progress=3,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=blue,blue=false,drain_progress=3,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=plain,blue=false,drain_progress=4,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=cultured,blue=false,drain_progress=4,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=blue,blue=false,drain_progress=4,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=plain,blue=false,drain_progress=5,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=cultured,blue=false,drain_progress=5,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=blue,blue=false,drain_progress=5,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=plain,blue=true,drain_progress=0,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue"
+    },
+    "batch=cultured,blue=true,drain_progress=0,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue"
+    },
+    "batch=blue,blue=true,drain_progress=0,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue"
+    },
+    "batch=plain,blue=true,drain_progress=1,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue"
+    },
+    "batch=cultured,blue=true,drain_progress=1,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue"
+    },
+    "batch=blue,blue=true,drain_progress=1,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue"
+    },
+    "batch=plain,blue=true,drain_progress=2,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue"
+    },
+    "batch=cultured,blue=true,drain_progress=2,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue"
+    },
+    "batch=blue,blue=true,drain_progress=2,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue"
+    },
+    "batch=plain,blue=true,drain_progress=3,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue_late"
+    },
+    "batch=cultured,blue=true,drain_progress=3,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue_late"
+    },
+    "batch=blue,blue=true,drain_progress=3,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue_late"
+    },
+    "batch=plain,blue=true,drain_progress=4,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue_late"
+    },
+    "batch=cultured,blue=true,drain_progress=4,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue_late"
+    },
+    "batch=blue,blue=true,drain_progress=4,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue_late"
+    },
+    "batch=plain,blue=true,drain_progress=5,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue_late"
+    },
+    "batch=cultured,blue=true,drain_progress=5,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue_late"
+    },
+    "batch=blue,blue=true,drain_progress=5,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_blue_late"
+    },
+    "batch=cheddar,drain_progress=0,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=cheddar,drain_progress=1,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=cheddar,drain_progress=2,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2"
+    },
+    "batch=cheddar,drain_progress=3,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=cheddar,drain_progress=4,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=cheddar,drain_progress=5,stage=2,bundled=false": {
+      "model": "fromage:block/draining_table_2_late"
+    },
+    "batch=plain,blue=false,stage=3,whey_pending=true,bundled=false": {
+      "model": "fromage:block/draining_table_3"
+    },
+    "batch=plain,blue=false,stage=3,whey_pending=false,bundled=false": {
+      "model": "fromage:block/draining_table_3_dry_tray"
+    },
+    "batch=cultured,blue=false,stage=3,whey_pending=true,bundled=false": {
+      "model": "fromage:block/draining_table_3"
+    },
+    "batch=cultured,blue=false,stage=3,whey_pending=false,bundled=false": {
+      "model": "fromage:block/draining_table_3_dry_tray"
+    },
+    "batch=blue,blue=false,stage=3,whey_pending=true,bundled=false": {
+      "model": "fromage:block/draining_table_3"
+    },
+    "batch=blue,blue=false,stage=3,whey_pending=false,bundled=false": {
+      "model": "fromage:block/draining_table_3_dry_tray"
+    },
+    "batch=plain,blue=true,stage=3,whey_pending=true,bundled=false": {
+      "model": "fromage:block/draining_table_3_blue"
+    },
+    "batch=plain,blue=true,stage=3,whey_pending=false,bundled=false": {
+      "model": "fromage:block/draining_table_3_blue_dry_tray"
+    },
+    "batch=cultured,blue=true,stage=3,whey_pending=true,bundled=false": {
+      "model": "fromage:block/draining_table_3_blue"
+    },
+    "batch=cultured,blue=true,stage=3,whey_pending=false,bundled=false": {
+      "model": "fromage:block/draining_table_3_blue_dry_tray"
+    },
+    "batch=blue,blue=true,stage=3,whey_pending=true,bundled=false": {
+      "model": "fromage:block/draining_table_3_blue"
+    },
+    "batch=blue,blue=true,stage=3,whey_pending=false,bundled=false": {
+      "model": "fromage:block/draining_table_3_blue_dry_tray"
+    },
+    "bundled=true,drain_progress=0,stage=2": {
+      "model": "fromage:block/draining_table_bundle_0"
+    },
+    "bundled=true,drain_progress=1,stage=2": {
+      "model": "fromage:block/draining_table_bundle_1"
+    },
+    "bundled=true,drain_progress=2,stage=2": {
+      "model": "fromage:block/draining_table_bundle_2"
+    },
+    "bundled=true,drain_progress=3,stage=2": {
+      "model": "fromage:block/draining_table_bundle_3"
+    },
+    "bundled=true,drain_progress=4,stage=2": {
+      "model": "fromage:block/draining_table_bundle_4"
+    },
+    "bundled=true,drain_progress=5,stage=2": {
+      "model": "fromage:block/draining_table_bundle_5"
+    },
+    "batch=plain,bundled=true,stage=3": {
+      "model": "fromage:block/draining_table_bundle_6"
+    },
+    "batch=cultured,bundled=true,stage=3": {
+      "model": "fromage:block/draining_table_bundle_6"
+    },
+    "batch=blue,bundled=true,stage=3": {
+      "model": "fromage:block/draining_table_bundle_6"
+    }
+  }
+}

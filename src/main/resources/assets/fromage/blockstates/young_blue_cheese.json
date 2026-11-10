@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "pierced=false": {
+      "model": "fromage:block/young_blue_cheese"
+    },
+    "pierced=true": {
+      "model": "fromage:block/young_blue_cheese_pierced"
+    }
+  }
+}
