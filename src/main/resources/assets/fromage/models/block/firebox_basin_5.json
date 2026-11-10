@@ -4,9 +4,9 @@
     "copper": "fromage:block/copper",
     "rim": "fromage:block/rim",
     "copper_inside": "fromage:block/copper_inside",
-    "whey": "fromage:block/whey",
-    "whey_surface": "fromage:block/whey_surface",
-    "curds": "fromage:block/curds",
+    "whey": "fromage:block/pale_whey",
+    "whey_surface": "fromage:block/pale_whey_surface",
+    "curds": "fromage:block/cut_curds",
     "particle": "fromage:block/copper"
   },
   "elements": [
@@ -426,7 +426,7 @@
       ],
       "to": [
         7,
-        7.75,
+        8.5,
         7
       ],
       "faces": {
@@ -454,7 +454,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "south": {
@@ -463,7 +463,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "west": {
@@ -472,7 +472,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "east": {
@@ -481,7 +481,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         }
       }
@@ -494,7 +494,7 @@
       ],
       "to": [
         12,
-        7.75,
+        8.5,
         7
       ],
       "faces": {
@@ -522,7 +522,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "south": {
@@ -531,7 +531,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "west": {
@@ -540,7 +540,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "east": {
@@ -549,7 +549,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         }
       }
@@ -562,7 +562,7 @@
       ],
       "to": [
         7,
-        7.75,
+        8.5,
         12
       ],
       "faces": {
@@ -590,7 +590,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "south": {
@@ -599,7 +599,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "west": {
@@ -608,7 +608,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "east": {
@@ -617,7 +617,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         }
       }
@@ -630,7 +630,7 @@
       ],
       "to": [
         12,
-        7.75,
+        8.5,
         12
       ],
       "faces": {
@@ -658,7 +658,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "south": {
@@ -667,7 +667,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "west": {
@@ -676,7 +676,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         },
         "east": {
@@ -685,7 +685,7 @@
             0,
             0,
             3,
-            1
+            2
           ]
         }
       }
